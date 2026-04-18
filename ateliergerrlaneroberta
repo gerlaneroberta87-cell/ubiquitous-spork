@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier Roberta Oliveira | Bolsas Artesanais</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fdfdfd;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 2.5rem;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            font-weight: 300;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #4a4a4a;
+        }
+
+        header p {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 5px;
+        }
+
+        .banner {
+            height: 300px;
+            background: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .titulo-secao {
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .grade-produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .cartao {
+            background: #fff;
+            border: 1px solid #eee;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .foto-espaco {
+            height: 300px;
+            background: #f9f9f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #bbb;
+        }
+
+        .materiais {
+            background-color: #f9f9f9;
+            padding: 50px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .etiqueta {
+            display: inline-block;
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 5px 15px;
+            border-radius: 15px;
+            margin: 5px;
+            font-size: 0.8rem;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        .botao-contato {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: transparent;
+            color: #fff;
+            border: 1px solid #fff;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .botao-contato:hover {
+            background: #fff;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Atelier Roberta Oliveira</h1>
+        <p>Artesanato Sofisticado & Design em Sintéticos</p>
+    </header>
+
+    <section class="banner">
+        <h2>Feito à mão, com alma e exclusividade.</h2>
+        <p>Bolsas e acessórios desenvolvidos com os melhores materiais do mercado.</p>
+    </section>
+
+    <div class="container">
+        <h2 class="titulo-secao">Nossas Peças</h2>
+        <div class="grade-produtos">
+            <div class="cartao">
+                <div class="foto-espaco">Espaço para Foto da Bolsa</div>
+                <h3 style="margin-top:15px">Bolsa Luxo Duna</h3>
+                <p>Estrutura e elegância.</p>
+            </div>
+            <div class="cartao">
+                <div class="foto-espaco">Espaço para Foto da Necessaire</div>
+                <h3 style="margin-top:15px">Necessaire Soft</h3>
+                <p>Praticidade com toque macio.</p>
+            </div>
+            <div class="cartao">
+                <div class="foto-espaco">Espaço para Foto da Clutch</div>
+                <h3 style="margin-top:15px">Clutch Eros</h3>
+                <p>O brilho que seu evento pede.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="materiais">
+        <h2 class="titulo-secao">Materiais que utilizamos</h2>
+        <div>
+            <span class="etiqueta">Duna</span>
+            <span class="etiqueta">Soft Color</span>
+            <span class="etiqueta">Catania</span>
+            <span class="etiqueta">Eros</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Atelier Roberta Oliveira - Recife/PE</p>
+        <a href="#" class="botao-contato">Acompanhe no Instagram</a>
+    </footer>
+
+</body>
+</html>
